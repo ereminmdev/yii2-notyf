@@ -10,11 +10,11 @@ Based on JavaScript library: https://github.com/caroso1222/notyf
 
 ## Documentation
 
-See for clientOptions: https://github.com/caroso1222/notyf#global-configuration
+https://github.com/caroso1222/notyf#global-configuration
 
 ## Use
 
-Insert widget into view:
+Use in view:
 
 ```
 <?php
@@ -26,10 +26,10 @@ $this->registerJs('
 var notyf = new Notyf();
 
 // Display an error notification
-notyf.error('You must fill out the form before moving forward');
+notyf.error("You must fill out the form before moving forward");
 
 // Display a success notification
-notyf.success('Your changes have been successfully saved!');
+notyf.success("Your changes have been successfully saved!");
 
 ');
 ?>
