@@ -13,6 +13,6 @@ class NotyfAsset extends AssetBundle
     ];
 
     public $js = [
-        YII_DEBUG ? 'notyf.js' : 'notyf.min.js',
+        YII_DEBUG ? 'notyf.umd.js' : 'notyf.min.js',
     ];
 }
